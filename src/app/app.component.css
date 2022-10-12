@@ -1,0 +1,75 @@
+.form-register {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  justify-content: center;
+  height: 100vh;
+}
+
+h3.form-title {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+.form-register--input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.form-register--input label {
+  font-size: 1.4rem;
+
+}
+
+.form-register--input input {
+  border-radius: 5px;
+  border: none;
+  font-size: 1.4rem;
+  padding: 10px 8px;
+  margin-top: 5px;
+  outline: none;
+  background-color: rgb(241, 241, 241);
+}
+
+.form-button {
+  display: block;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+}
+.form-button:disabled {
+  cursor: default;
+}
+
+.form-login {
+  background-color: rgb(171, 243, 207);
+  color: white;
+  margin: 20px auto 0 auto;
+}
+.form-login:disabled {
+  background-color: rgb(121, 121, 121);
+}
+
+.form-forgot {
+  color: rgb(171, 243, 207);
+  font-size: 1.6rem;
+  margin: 30px auto 0 auto;
+}
+
+.form-signup {
+  background-color: transparent;
+  border: 1px solid rgb(180, 180, 180);
+  margin-top: 30px;
+  color: rgb(171, 243, 207);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
